@@ -9,7 +9,7 @@
 }
 
 #preloader.background_image{
-	background-image:url(http://placehold.it/1920x1080);
+	background-image:url(images/attempted-background.jpeg);
 	background-position:center center; 
 	background-size:cover; 
 }
