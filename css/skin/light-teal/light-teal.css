@@ -2,15 +2,15 @@
 /* 00. PRELOADER		 						 */
 /*===============================================*/
 .heart-animation i{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 .top-heart{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 .her-name{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /*===============================================*/
@@ -19,7 +19,7 @@
 
 h1 a:hover, h2 a:hover, h3 a:hover, 
 h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /*===============================================*/
@@ -30,28 +30,28 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 03.1 Parent Menu								 */
 /* ----------------------------------------------*/
 #nav-menu > li:before{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 #nav-menu > li a:hover{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /* 03.1.1 Transparent 							 */
 /* ----------------------------------------------*/
 .transparent #nav-menu > li a:hover{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /* ----------------------------------------------*/
 /* 03.2 Child Menu								 */
 /* ----------------------------------------------*/
 #nav-menu ul{
-	border-top-color:#18A7B5;
+	border-top-color:#23bdb3;
 }
 
 #nav-menu ul li a:hover{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 }
 
 
@@ -62,13 +62,13 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 04.2.1 Standard Menu Icon */
 /* ----------------------------------------------*/
 #menu-icon.white a:hover i, #menu-icon a:hover i{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /* 04.2.2 Sticky Menu Icon */
 /* ----------------------------------------------*/
 #sticky-menuicon a:hover{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 }
 
 /* ----------------------------------------------*/
@@ -78,17 +78,17 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 04.3.2 Close Button */
 /* ----------------------------------------------*/
 #close-button:hover i{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /* 04.3.3 Parent Menu */
 /* ----------------------------------------------*/
 #side-nav-menu > li > a:before{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 #side-nav-menu > li a:hover{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 
@@ -100,7 +100,7 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 05.1	CSS Logo								 */
 /* ----------------------------------------------*/
 .css-logo{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 }
 
 
@@ -111,7 +111,7 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
 .pink-dot{
-	color: #18A7B5;
+	color: #23bdb3;
 }
 
 /*===============================================*/
@@ -121,7 +121,7 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 07.1.6 Page Sidebar				 			 */
 /* ----------------------------------------------*/
 .sidebar-menu li a:hover{
-	color: #18A7B5;
+	color: #23bdb3;
 }
 
 
@@ -132,38 +132,43 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 07.2.4 Title-Excerpt White Box				 */
 /* ----------------------------------------------*/
 .title-excerpt .custom-heart-icon{
-	color:#18A7B5 !important; 
+	color:#23bdb3 !important; 
+	background-color:#f0742c !important;
 }
 
 
 /* 07.2.9 HEART DIVIDER							 */
 /* ----------------------------------------------*/
 .pink-heart{
-	color:#18A7B5; 
+	color:#23bdb3; 
 }
 .grey-heart{
-	color:#d3a321;
+	color:#f78429;
 }
-
+.white-heart{
+	color:#f78429;
+}
 
 /* 07.2.10 BUTTON					 			 */
 /* ----------------------------------------------*/
 a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
-	background-color:#18A7B5; 
-	border:solid 1px #18A7B5;
+	background-color:#23bdb3; 
+	border:solid 1px #23bdb3;
 }
 
 a.de-button:hover, input[type=submit]:hover{
-	background-color:#18A7B5;
-	border-color:#18A7B5;
+	background-color:#23bdb3;
+	border-color:#23bdb3;
 }
 
 /* 07.2.11 Banner Text				 			 */
 /* ----------------------------------------------*/
 .banner-text.withlove:after{
-	color:#18A7B5;
+	color:#23bdb3;
 }
-
+.banner-text.withlove:before{
+	color:#f78429;
+}
 
 /*===============================================*/
 /* 08 ICON										 */
@@ -176,29 +181,29 @@ a.de-button:hover, input[type=submit]:hover{
 /* 08.2.1 Default								  */
 /*------------------------------------------------*/
 .de-icon.default.reverse{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 a:hover .de-icon.default, a:hover .de-icon.default.light{
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 /* 08.2.2 Circle, Rounded, Square				  */
 /*------------------------------------------------*/
 .de-icon.square.reverse, .de-icon.circle.reverse, .de-icon.rounded.reverse{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 	color:#FFF;
 }
 
 .de-icon.square.light.reverse, .de-icon.circle.light.reverse, .de-icon.rounded.light.reverse{
 	background-color:#FFF;
-	color:#18A7B5;
+	color:#23bdb3;
 }
 
 .de-icon.outline.reverse{
 	background-color:transparent;
-	color:#18A7B5;
-	border:1px solid #18A7B5;
+	color:#23bdb3;
+	border:1px solid #23bdb3;
 }
 
 .de-icon.outline.light, .de-icon.outline.light.reverse{
@@ -208,7 +213,7 @@ a:hover .de-icon.default, a:hover .de-icon.default.light{
 }
 
 a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 	color:#FFF;
 	border:none;
 }
@@ -217,7 +222,7 @@ a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
 /* 08.5 Effect Square/Rounded To Circle 	  	  */
 /*------------------------------------------------*/
 a:hover .de-icon.effect3{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 	color:#fff;
 	border-radius: 50%;
 }
@@ -234,8 +239,8 @@ form .btn-primary.focus,
 form .btn-primary:active,
 form .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color:#18A7B5; 
-	border-color:#18A7B5;
+	background-color:#23bdb3; 
+	border-color:#23bdb3;
 	color:#FFF;
  	border-color: #cccccc;
 }
@@ -244,7 +249,7 @@ form .btn-primary.active,
 /* 11.8 Message									 */
 /*-----------------------------------------------*/
 .message .bg-danger{
-	background-color:#18A7B5; 
+	background-color:#23bdb3; 
 }
 
 /*===============================================*/
@@ -255,28 +260,28 @@ form .btn-primary.active,
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
 .his-her-name .custom-heart{
-	background-color:#18A7B5; 
+	background-color:#23bdb3; 
 }
 
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
 .story-date{
-	background-color:#18A7B5; 
+	background-color:#23bdb3; 
 }
 
 /* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 .and{
-	color:#18A7B5;
+	color:#f78429;
 }
 
 /* ----------------------------------------------*/
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 .circle-countdown .countdown-amount {
-	background-color:#18A7B5; 
+	background-color:#23bdb3; 
 }
 
 /*===============================================*/
@@ -284,7 +289,7 @@ form .btn-primary.active,
 /*===============================================*/
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #18A7B5; 
+	background: #23bdb3; 
 }
 
 
@@ -297,12 +302,12 @@ form .btn-primary.active,
 /* 03.1 Parent Menu 						     */
 /* ----------------------------------------------*/
 #nav-menu li a:hover{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 	color:#FFF;
 }
 
 .transparent #nav-menu li a:hover{
-	background-color:#18A7B5;
+	background-color:#23bdb3;
 	color:#FFF;
 }
 }
