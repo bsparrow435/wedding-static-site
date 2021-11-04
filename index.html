@@ -399,7 +399,7 @@
                         	<div class="arrow-left"></div>
                             <div class="story-date">
                             	<div class="date-only">6</div>
-                                <div class="month-year">4'5"</div>
+                                <div class="month-year">4'3"</div>
                            </div>
                            <div class="arrow-right"></div>
                            <div class="clearboth"></div>                          
@@ -451,7 +451,7 @@
                         	<div class="arrow-left"></div>
                             <div class="story-date">
                             	<div class="date-only">3</div>
-                                <div class="month-year">3'10"</div>
+                                <div class="month-year">3'3"</div>
                            </div>
                            <div class="arrow-right"></div>
                            <div class="clearboth"></div>                          
@@ -512,7 +512,7 @@
                         
                         <div class="col-sm-12 col-md-4 col-md-pull-6 animation delay1 fadeInRight">
                         	<h2>MELBOURNE</h2>
-                            <p>Scraps and poop. Poops and scraps. That's the way we poops and scraps, poops and scraps.</p>                            
+                            <p>Scraps and poop. Poops and scraps. That's the way we poops and scraps, scraps and poops.</p>                            
                         </div>    
                         
                         <div class="vertical-line">
@@ -602,23 +602,30 @@
                 	<div class="row">
                     	<div class="col-md-6 animation fadeIn">
                         
-                            <div class="de-icon circle small-size inline" style="background-color:#f0394d">
+                            <div class="de-icon circle small-size inline" style="background-color:#23bdb3">
                             	<i class="de-icon-bell-alt"></i>
                             </div>
                             <h3 class="inline">CEREMONY</h3>
-                            <p>Featuring Christina Lemaire. Courtney will walk down the aisle at exactly 4:20pm</p>
+                            <p>Featuring Christina Lemaire. Courtney will walk down the aisle at exactly 4:20pm.</p>
                                
-                       		<div class="de-icon circle small-size inline" style="background-color:#f6700e">
+                       		<div class="de-icon circle small-size inline" style="background-color:#f78429">
                             	<i class="de-icon-food"></i>
                             </div>
                             <h3 class="inline">FOOD/DRINK</h3>
-                            <p>Food truck, appetizers, and drinks will be available throughpout the event. Menu coming soon!</p>
+                            <p>Food truck, appetizers, and drinks will be available throughout the event. Menu coming soon!</p>
                             
-							<div class="de-icon circle small-size inline" style="background-color:#0d9a48">
+							<div class="de-icon circle small-size inline" style="background-color:#FF4040">
                             	<i class="de-icon-home-1"></i>
                             </div>
                             <h3 class="inline">ACCOMODATION</h3>
-                            <p>Not our house. We love you but stay somewhere else!</p>                            
+                            <p>Not our house. We love you but stay somewhere else!</p>  
+							
+							<div class="de-icon circle small-size inline" style="background-color:#514ca0
+							">
+                            	<i class="de-icon-book-1"></i>
+                            </div>
+                            <h3 class="inline">FARMERS ALMANAC</h3>
+                            <p>It is December. It will be cold. Dress casual... yet warm.</p>  
                                                        
                         </div>
                         
@@ -1038,24 +1045,24 @@
                 		<div class="col-md-6">
                         	<div id="fullname" class="form-group">
     							<label for="inputname">*NAME</label>
-    							<input type="text" class="form-control ajax-input" id="inputname" placeholder="Chosen Name" data-required="Name Required" data-output-label="Output Name">
+    							<input type="text" class="form-control" placeholder="Chosen Name" data-required="Name Required" onchange="updateRSVP()">
  							</div>
                             <div id="number" class="form-group">
-    							<label for="inputemail">NUMBER OF GUESTS</label>
-    							<input type="email" class="form-control ajax-input" id="inputemail" placeholder="1-ish" data-required="Email Required" data-output-label="Output Email">
+    							<label for="inputcount">NUMBER OF GUESTS</label>
+    							<input type="count" class="form-control" placeholder="1-ish" onchange="updateRSVP()">
  							</div>
                         	<div id="events" class="form-group">
     							<label for="inputevents">*ATTENDANCE</label>
-    							<select id="inputevents" class="form-control ajax-input" data-required="Please Select Events" data-output-label="Output Events">
+    							<select id="inputevents" class="form-control" data-required="PLEASE RESPOND TO THE RSVP SIR" onchange="updateRSVP()">
  									<option>We'll be there!</option>
-  									<option>We regret to inform you of our planned abscence.</option>
+  									<option>We regret to inform you of our planned abscence from your fantastic event. WE ARE VERY VERY SORRY.</option>
 								</select>
  							</div>
                     	</div>
                     	<div class="col-md-6">
                         	<div class="form-group">
     							<label for="inputmessage">HILARIOUS COMMENTARY SECTION</label>
-    							<textarea id="inputmessage" class="form-control ajax-input" rows="12" placeholder="OMG Courtney you look just OK!" data-output-label="Output Message"></textarea>
+    							<textarea id="inputmessage" class="form-control" rows="12" placeholder="OMG Courtney you look just OK!" onchange="updateRSVP()"></textarea>
  							</div> 
                     	</div>
                         <div class="col-md-12 text-center">
