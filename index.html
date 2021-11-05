@@ -280,7 +280,7 @@
             
             <!-- PHOTO DIVIDER -->
             <section id="photo-divider">
-            	<div class="image-divider fixed-height" style="background-image:url(images/pattern-full.jpg); height:600px" data-stellar-background-ratio="0.3">
+            	<div class="image-divider fixed-height" style="background-image:url(images/pattern.webp); height:600px" data-stellar-background-ratio="0.3">
                 </div>
             </section>
             
@@ -330,7 +330,7 @@
                                     <div class="alignment">
                                     	<div class="v-align center-middle">
                                            
-                                     		<a href="images/miles-solo.jpg" class="magnific-zoom" title="Our First Met">
+                                     		<a href="images/miles-solo.jpg" class="magnific-zoom" title="Miles">
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-zoom-in"></i>
             									</div>
@@ -382,7 +382,7 @@
                                     <div class="alignment">
                                     	<div class="v-align center-middle">
                                            
-                                     		<a href="images/logan-solo.jpg" class="magnific-zoom" title="Our First Dating">
+                                     		<a href="images/logan-solo.jpg" class="magnific-zoom" title="Logan">
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-zoom-in"></i>
             									</div>
@@ -434,7 +434,7 @@
                                     <div class="alignment">
                                     	<div class="v-align center-middle">
                                            
-                                     		<a href="images/zoe-solo.jpg" class="magnific-zoom" title="He Proposed">
+                                     		<a href="images/zoe-solo.jpg" class="magnific-zoom" title="Zoe">
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-zoom-in"></i>
             									</div>
@@ -476,7 +476,7 @@
                         	<div class="photo-item frame-border animation delay1 fadeInLeft">
                                 	
                              	<!--PHOTO-->
-                               	<img src="images/melbs-solo.jpg" alt="" class="hover-animation image-zoom-in">
+                               	<img src="images/melbs-solo.webp" alt="" class="hover-animation image-zoom-in">
                                             
                                	<!--PHOTO OVERLAY-->
                            		<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
@@ -487,7 +487,7 @@
                                     <div class="alignment">
                                     	<div class="v-align center-middle">
                                            
-                                     		<a href="images/melbs-solo.jpg" class="magnific-zoom" title="Love Ring">
+                                     		<a href="images/melbs-solo.webp" class="magnific-zoom" title="Melbourne">
         										<div class="de-icon circle light medium-size inline">
             										<i class="de-icon-zoom-in"></i>
             									</div>
@@ -540,7 +540,7 @@
             
             <!-- PHOTO DIVIDER -->
             <section id="photo-divider-1">
-            	<div class="image-divider fixed-height" style="background-image:url(images/pattern-full.jpg); height:500px" data-stellar-background-ratio="0.3">
+            	<div class="image-divider fixed-height" style="background-image:url(images/pattern.webp); height:500px" data-stellar-background-ratio="0.3">
                 </div>
             </section>     
             
@@ -1008,7 +1008,7 @@
             
             <!-- PHOTO DIVIDER -->
             <section id="photo-divider-2">
-            	<div class="image-divider fixed-height" style="background-image:url(images/pattern-full.jpg); height:450px" data-stellar-background-ratio="0.3">
+            	<div class="image-divider fixed-height" style="background-image:url(images/pattern.webp); height:450px" data-stellar-background-ratio="0.3">
                 </div>
             </section>
             
@@ -1041,21 +1041,21 @@
                 <div class="row">
                 	<div id="message" class="col-md-12 message"> <!-- Show Message --> </div>
                   
-                	<form id="rsvpform">
+                	<form>
                 		<div class="col-md-6">
                         	<div id="fullname" class="form-group">
     							<label for="inputname">*NAME</label>
-    							<input type="text" class="form-control" placeholder="Chosen Name" data-required="Name Required" onchange="updateRSVP()">
+    							<input id="inputname" type="text" class="form-control" placeholder="Chosen Name" data-required="Name Required" onchange="updateRSVP()">
  							</div>
                             <div id="number" class="form-group">
     							<label for="inputcount">NUMBER OF GUESTS</label>
-    							<input type="count" class="form-control" placeholder="1-ish" onchange="updateRSVP()">
+    							<input id="inputcount" type="number" class="form-control" placeholder="The guest list is NOT squishy..." onchange="updateRSVP()">
  							</div>
                         	<div id="events" class="form-group">
     							<label for="inputevents">*ATTENDANCE</label>
     							<select id="inputevents" class="form-control" data-required="PLEASE RESPOND TO THE RSVP SIR" onchange="updateRSVP()">
- 									<option>We'll be there!</option>
-  									<option>We regret to inform you of our planned abscence from your fantastic event. WE ARE VERY VERY SORRY.</option>
+ 									<option selected="selected">We'll be there!</option>
+  									<option>We regret to inform you of our planned abscence from your fantastic event. WE ARE VERY VERY SORRY. WE KNOW YOU WILL NOT HOLD THIS AGAINST US BECAUSE YOU ARE BOTH SO ABSOLUTELY FANTASTIC AND IMPORTANT TO OUR LIFE. THANK YOU FOR THE OPPORTUNITY TO RSVP.</option>
 								</select>
  							</div>
                     	</div>
@@ -1067,13 +1067,44 @@
                     	</div>
                         <div class="col-md-12 text-center">
                         	<div class="form-group">
-    							<input type="submit" href="sms:4109210280" id="submitButton"  name="submitButton" class="button medium reverse" value="RSVP via SMS">
+    							<a id="sms" href="sms://+13015361049?&body=Maybe?" class="button medium reverse rsvp">RSVP via SMS</a>
 								<i class="de-icon-heart pink-heart rsvp-heart"></i>
                         		<i class="de-icon-heart white-heart rsvp-heart"></i>
-								<input type="submit" id="submitButton"  name="submitButton" class="button medium reverse" value="RSVP via Email">
+								<a id="email" href="mailto:courtneyhannon1@gmail.com?subject=Wedding%20RSVP&body=Maybe?" class="button medium reverse rsvp">RSVP via Email</a>
  							</div> 
                     	</div>
                     </form>
+
+					<script>
+						function updateRSVP() {
+						    var name = document.getElementById("inputname").value;
+							if	(name.length == 0){
+								name = "I am the night."
+							}
+							else{
+								name = "Thanks! -" + name;
+							}
+							var event = document.getElementById("inputevents").value;
+							var count = document.getElementById("inputcount").value;
+							var message = document.getElementById("inputmessage").value;
+							if	(count.length == 0){
+								count = ""
+							}
+							else if(count == 1){
+								event = "My arrival is at hand."
+								count = " I will be solo and expect funk music upon my coming. "
+								message = "Please recognize my dominance. " + message
+							}
+							else{
+								count = " Our party will have " + count + " members. "
+							}
+							if	(message.length == 0){
+								message = "Please recognize our dominance. "
+							}
+						    document.getElementById("sms").href = "sms://+13015361049?&body=" + event + count + message + name;
+							document.getElementById("email").href = "mailto:courtneyhannon1@gmail.com?subject=Wedding%20RSVP&body=" + event + count + message + name;
+						}
+					</script>
                    
               	</div>
                 </div>
@@ -1174,6 +1205,7 @@
         <script type="text/javascript" src="js/map-script.js"></script> 
         <!-- Custom Additional Script -->
         <script type="text/javascript" src="js/main-slider-fade.js"></script>
-        
+		<script type="text/javascript" src="js/main-slider-fade.js"></script>
+
 	</body>
 </html>
